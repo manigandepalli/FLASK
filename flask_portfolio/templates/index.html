@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="home-intro">
+        <img src="{{ url_for('static', filename='images/profile.jpg') }}" alt="Profile Picture" class="profile-pic">
+        <h2>Welcome! I'm Manikanta Gandepalli</h2>
+        <p>Feel free to explore my portfolio to know more about my experience and skills.</p>
+        <div class="btn-container">
+            <a href="{{ url_for('resume') }}" class="btn">About Me</a>
+        </div>
+    </div>
+{% endblock %}

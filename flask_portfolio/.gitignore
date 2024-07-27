@@ -1,0 +1,21 @@
+# Python virtual environment
+venv/
+.venv/
+flask_portfolio/venv/
+
+# IDE specific files
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Other files
+*.log
+*.tmp
